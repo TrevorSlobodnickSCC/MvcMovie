@@ -1,0 +1,7 @@
+﻿Error CS0246: The type or namespace name 'MvcMovieContext'
+could not be found (are you missing a using directive or an assembly reference?) (CS0246) (MvcMovie)
+
+When navigating to the file, there were red lines under MvcMovie, after clicking on the potential fixes button,
+it recommended that I add a using state for MvcMovie.Data and that has removed the error
+
+I encountered similar errors in other files, by adding the "using MvcMovie.data" to each file, the errors went away
